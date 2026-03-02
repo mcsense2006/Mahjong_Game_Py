@@ -147,7 +147,7 @@ deal_initial_hands()
 while True:
     fenetre.fill((60,120,100))
     mouse_pos = pygame.mouse.get_pos()
-    
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT: pygame.quit(); sys.exit()
         elif event.type == pygame.MOUSEBUTTONDOWN:
